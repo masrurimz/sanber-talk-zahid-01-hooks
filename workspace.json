@@ -1,5 +1,14 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "effect": "apps/effect",
+    "effect-e2e": "apps/effect-e2e",
+    "memoize": "apps/memoize",
+    "memoize-e2e": "apps/memoize-e2e",
+    "shared-service": "libs/shared-service",
+    "shared-types": "libs/shared-types",
+    "state": "apps/state",
+    "state-e2e": "apps/state-e2e"
+  }
 }
